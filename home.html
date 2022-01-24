@@ -1,0 +1,527 @@
+<!Doctype>
+<html>
+<head>
+<style>
+body{margin: 0; padding: 0;}
+img{max-width:100%}
+ul{ margin:0; padding:0}
+.wrapper {max-width:1270px;  margin:0 auto;}
+.top_info{background:#212529; float:left; width:100%; padding-top:10px; padding-bottom:10px; }
+.left_info{ float:left; }
+.mail { color:white; text-decoration:none;}
+.right_info{float:right;}
+.login {padding-right:20px; background-color:#45C75A; text-decoration:none; padding:10px 11px;}
+.tel {padding-right:20px; color:white; }
+.register {background:#04C9F4; text-decoration:none; padding:10px 11px; margin:1rem;}
+
+
+.img_left {float:left; width: 30%}
+.right_link {float:right;  width:70%; margin-top: 30px;}
+
+.link li  {display:inline-block; list-style:none;}
+.link li a{font-size:20px; text-decoration:none; color:#030027; padding:0 8px;}
+.link li:hover a{ color:#f00}
+.banner {float:left; margin-top:10px;}
+
+.caption {position:absolute; width:48%; background-color:#E94242;  top:40%;   font-size:20px; }
+.caption h3 {color:white; font-size:2.50rem; padding: 1px 100px; letter-spacing:1px; line-height:33px;}
+
+
+
+.below_banner { width:100%;  background-color:#030027; float:left;  padding-top:60px;}
+.below_image {float:left; width:40%; padding-bottom:80px;}
+ h4{font-size:26px; color:#cbcbcb; font-style:normal; font-weight:300; line-height:35px; margin:10px 100px;}
+.below_text {float:left; width:30%;}
+.below_text h5 {font-size:26px;	 font-style:normal; color:#fff; line-height:15px; font-family:roboto; font-weight:700; margin:0px; padding:0px;}		
+.below_text p {font-size: 20px;  line-height: 18px; color:white; }
+.download {background:#e94242; font-size:20px; border-radius:5px; line-height:65px; color:#fff; padding:11px 25px; text-decoration:none;}
+.download:hover {background:#04c9f4;}
+
+
+.below_text1 {width:30%; float:right;}
+.below_text1 h5 {font-size:26px; font-style:normal; color:#fff; line-height:15px; font-family:roboto; font-weight:700; margin:0px; padding:0px;}
+.below_text1 p {font-size: 20px;  line-height: 18px; color:white; }
+.download1 {background:#FFA20F; font-size:20px; border-radius:5px; line-height:65px; color:#fff; padding:11px 25px; text-decoration:none;}
+.download1:hover {background:#e94242;}
+
+.placement {width:100%; float:left; }
+.heading { background:#e94242;}
+.heading h2 {text-align:center; font-size:20px; font-weight:400; font-family:roboto; color:#fff; margin:0px -39px; padding:10px 0px;}
+
+.below_img1 {width:auto; float:left; }
+.below_img1 img { width:200px; border:1px solid #dee2e6; margin-top:45px;  margin-right:9px; margin-bottom:45px;}
+
+.section {width:100%; float:left; border-top:1px solid #cfcfcf; padding-bottom:100px;}
+.section1 h3{ font-size:35px; text-align:center; color:#2b3747; line-height:35px; font-weight:700;}
+.section1 p {text-align:center; font-size:20px; color:#808080; font-weight:400; margin:-30px;}
+
+
+.course {width:100%; float:left;  background-image:url(assets/images/bg2.jpg);}
+.box1 {width:28%; border:1px solid #baf3ff; padding:40px 26px; float:left; margin-right:13px; border-radius:5px; box-shadow:0px 4px 7px rgb(0 0 0 / 31%);
+                   }
+.box1 h2 { text-align:center; color:#2b3747;	}
+.box1 p {font-size:20px; font-wight:400; line-height:19px;}
+.box1 span {margin:118px;}
+.box1 a {margin:27px 115px; color:#030303; display:block; font-family:roboto;}
+.box1 b {color:#b25b4b; font-weight:bolder;}
+
+.download2 {width:100%; float: left; text-align:center; padding-bottom: 62px; padding-top:50px;}
+
+
+.result {width:100%; float:left;  }
+
+.section2:after {    content: ""; position: absolute; left: 0; right: 0px; width: 100%; background-image: url(assets/images/slider_bottom.png); height: 81px;
+               margin: 0 auto; background-repeat: no-repeat; text-align: center; background-position: center; bottom: -81px; z-index: 9;}
+.section2 { text-align:center; padding:22px 0px; background:#40b4f5; position:relative; width:80%; margin-left:125px; height:200px;}
+.input-group input[type="text"] {border-radius:5px; width:50%; margin-right:14px; border: none; padding:15px;}
+.input-group [type="submit"] { background:#000000; color:#fff; cursor:pointer; padding:12px 70px;}
+.input-group [type="submit"]:hover {background:#dc3545;}
+
+.speciallization {width:100%; float:left; padding-top:50px;  padding-bottom: 40px; }
+.speciallization_text {font-size:20px; color:#2b3747; text-align:center; line-height:15px;}
+
+.speciallization-list {width:100%; float:left; padding-bottom: 40px;}
+.box2 {width:28%; border:1px solid #baf3ff; padding:40px 26px; float:left; margin-right:13px; border-radius:5px; box-shadow:0px 4px 7px rgb(0 0 0 / 31%);
+               margin-bottom:20px; text-align:center;}
+.box2 a {margin:27px 115px; color:#ffa20f;  font-family:roboto; font-weight:500; font-size:20px;}
+
+.view2 {width:100%; float: left; text-align:center; padding-bottom: 62px; }
+
+.background-banner {width:100%; background-image:url(assets/images/students-says.jpg); float:left; padding:185px 0px; background-attachment:fixed; 
+               background-size:cover; background-repeat:no-repeat; padding-bottom:60px; padding-top:150px;}
+.background-text h2 {text-align:center; color:#fff; margin-top:-60px;}
+.background-text p {text-align:center; color:#FFFFFF; font-size:20px;}
+.background-box {width:100%; margin:0 auto; padding-bottom: 62px;}
+.background-box1 {width:48%; background:#fff; float:left; margin-right:25px;box-sizing:border-box; padding:13px 20px; border-radius:5px;}
+.background-box1 left_box {float:left;}
+.background-box1 right_box {float:right;}
+.background-box1 p {color:#525252; font-weight:bold; font-size:15px; line-height:29px; text-align:center; padding:15px 65px;}
+.img-section { width:46%; float:left;  margin-top: -50px;
+    margin-left: 40px; }
+.img-section h2 { margin:0; padding:0; color:#fff; line-height:30px; font-size:18px; font-family:roboto;}
+.img-section span {margin:0; padding:0; color:#fff; line-height:25px; font-size:14px; font-family:cursive;}
+
+.img-section img {display:block; }
+.box-img {width:100%; float:left;}
+.section {width:100%; float:left; background-image:url(assets/images/bg2.jpg);}
+.section-text {margin-top:60px;}
+.section-text h2 {color:#2b3747; font-size:30px; line-height:35px; font-weight:700; text-transform: uppercase; margin:50px; }
+.section-text p {font-size:20px; font-weight:400; line-height: 19px; margin-top: -50px; margin-left: 50px; color:#6c757d;}
+
+.process {width: 100%; float:left; }
+.img-process {width:20%;  float:left; text-align:center; padding-top:100px; }
+   
+.img-process h5 {font-size:20px; margin:10px; color:#2b3747;}
+.img-process span {font-size:15px; margin:12px; color:#909090;}
+
+.footer-top {width:100%; float:left; background:#e94242; padding:40px 0px;}
+.footer-text {width:25%; float:left; text-align:center;}
+.footer-text p {margin-bottom: 0px; padding-top: 11px; font-size: 20px; color: #fff;}
+.footer-text span {color:#fff; box-sizing: border-box;}
+
+.footer {width:100%; float:left; background: #030027; padding: 70px 0px;}
+.footer-bottom {width:33%; float:left;}
+.footer-bottom h2 {font-size: 35px; font-weight: 900; line-height: 41px; color: #fff; margin-bottom: 0;}
+.footer-bottom span.span-color {color:#e94242;}
+.text-white {color:#fff; font-size:18px; font-family:roboto;}
+.text-white1 {color:#fff; font-family:roboto;}
+.text-white2 {color:#fff; font-family: Roboto; font-size: 21px;}
+.footer-bottom p {color:#9595a0; font-size:20px;}
+.footer-bottom h4 {font-family:roboto; font-size:1.6rem; margin-left: 24px; padding-top: 18px; line-height: 2; color:#fff;}
+.text-new {color:#fff;}
+.p_text {margin:32px;}
+.link-bottom {list-style:none; margin:20px;}
+.link-bottom li:hover a{color:#dc3545;}    
+.link-bottom li a{text-decoration:none; font-size:20px; line-height: 2; font-family: roboto; color:#6c757d;}
+.link-bottom li {float:left; width:33.33%;}
+.input-bottom input[type=text] {height:41px; border-radius:8px; border: none; padding-left: 20px; margin-left:100px; font-size: 15px;}
+.input-bottom input[type=submit] {background:#40B4F5;color:#fff; padding: 13px 85px; margin-top: 20px; text-align: center; cursor: pointer; margin-left:100px;
+                              font-size: 15px; border:none; border-radius:8px;}
+.input-bottom input[type=submit]:hover {background:#dc3545;}
+
+.footer-below {float: left; width: 100%; text-align: center; background: #030027; border-top: 1px solid #434343;}
+.footer-below_text p {color:#9595a0;}
+
+</style>
+</head>
+
+<header>
+<body>
+  <div class="top_info">
+ <div class="wrapper">
+ 
+      <div class="left_info"><a href="mailto:SUPORT@GTIM.EDU.IN" class="mail">SUPORT@GTIM.EDU.IN</a></div>
+
+      <div class="right_info"> 
+             <a href="tel:+91-11-41040757" class="tel">+91-11-41040757</a>
+             <a href="#" class="login">Login</a>
+             <a href="#" class="register">Register</a>
+      </div>
+</div>
+  </div>
+<div class="wrapper">
+<div class="img_left">
+        <img src="assets/images/logo.png"  alt="logo"></div>
+  <div class="right_link">
+<ul class="link">
+   <li> <a href="about.html">About</a></li>
+    <li><a href="#">Admission</a></li>
+   <li> <a href="#">Student's corner</a></li>
+ <li> <a href="#">Courses</a></li>
+     <li><a href="#">Placements</a></li>
+    <li> <a href="#">Recognition</a></li>
+     <li><a href="#">Results</a></li>
+     <li><a href="#">Contact us</a></li>
+</ul>
+</div>
+</div>
+</header>
+
+
+<div class="banner">
+
+          <img src="assets/images/banner.jpg"  alt="image">
+<div class="caption"> <h3 span style="color:#000;"> Welcome to</span><br><h3>
+                            Innovation paradise<br>
+                             <br>for students.</h3></div> 
+
+</div>
+</div>
+
+<div class="below_banner">
+<div class="wrapper">
+<div class="below_image">
+<img src="assets/images/Rectangle 12.png" alt="rectangle">
+<h4>Why Choose Global Tech <br>
+                  Institue Of Management</h4>
+</div>
+                   
+                
+<div class="below_text">
+                   <h5>Modern Courses</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur<br>
+                        adipisicing elit. Repellendus, quaerat beatae.</p>
+                        <h5>Research Programs</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Repellendus, quaerat beatae.</p>
+                        <h5>High-profile Faculties</h5>
+                         <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Repellendus, quaerat beatae.</p>
+                       <a href="#" class="download">Prospectus Download</a>
+                     </div>
+             
+  <div class="below_text1">
+           <h5>Affordable Costs</h5>
+               <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Repellendus, quaerat beatae.
+         <h5>Guaranteed Career</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Repellendus, quaerat beatae.</p> 
+           <h5>Cultural Events</h5>
+             <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Repellendus, quaerat beatae.</p>
+        <a href="#" class="download1">Download Admmission Form</a>
+</div>
+</div>
+</div>
+
+<div class="placement">
+<div class="heading">
+<div class="wrapper">
+
+   <h2>Where Our Students Are Placed</h2>
+</div>
+</div>
+</div>
+
+<div class="wrapper">
+<div class="below_img1">
+
+         <img src="assets/images/reliance.jpg"  alt="reliance">
+          
+</div>
+
+<div class="below_img1">
+         <img src="assets/images/hcl.jpg"  alt="reliance">
+          
+</div>
+
+<div class="below_img1">
+         <img src="assets/images/jindal.jpg"  alt="reliance">
+          
+</div>
+
+<div class="below_img1">
+         <img src="assets/images/oracle.jpg"  alt="reliance">
+          
+</div>
+
+<div class="below_img1">
+         <img src="assets/images/tata.jpg"  alt="reliance">
+          
+</div>
+
+<div class="below_img1">
+         <img src="assets/images/tataIndicom.jpg"  alt="reliance">
+          
+</div>          
+</div>
+       <div class="section">
+<div class="wrapper">
+<div class="section1">
+           <h3>OUR COURSES</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>
+   </div>
+</div>
+</div>
+<div class="course">
+<div class="wrapper"> 
+<div class="box1">
+             <h2>COURSE 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>
+          <span><b>7000</b>/monthly</span>
+          <a href="#">Registor Now</a>
+</div>
+<div class="box1">
+                 <h2>COURSE 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>
+    <span><b>7000</b>/monthly</span>
+          <a href="#">Registor Now</a>
+</div>
+<div class="box1">
+             <h2>COURSE 1</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>
+             <span><b>7000</b>/monthly</span>
+          <a href="#">Registor Now</a>
+</div>
+
+<div class="download2">
+<div class="wrapper">
+            <a href="#" class="download">VIEW ALL</a>
+</div>
+</div>
+<div class="result">
+<div class="wrapper">
+<div class= "section2">
+         <h2>Check your result</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>
+        
+<div class="input-group">
+             <input type="text" placeholder="Enter Your Enrolment Number">
+              <input type="submit" value="Submit">
+
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="speciallization">
+<div class="wrapper">
+<div class="speciallization_text">
+     <h2>Speciallization List</h2> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>             
+
+</div>
+
+</div>
+</div>
+<div class="speciallization-list">
+    <div class="wrapper">
+<div class="box2">
+             <h2>Agriculture Management</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p> 
+              <a href="#">Registor Now</a>
+</div>
+<div class="box2">
+             <h2>Advertising Management</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p> 
+              <a href="#">Registor Now</a>
+</div>
+<div class="box2">
+             <h2>Asset Management</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p> 
+              <a href="#">Registor Now</a>
+</div>
+<div class="box2">
+             <h2>Air transport Management</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p> 
+              <a href="#">Registor Now</a>
+</div>
+<div class="box2">
+             <h2>Architectural Management</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p> 
+              <a href="#">Registor Now</a>
+</div>
+<div class="box2">
+             <h2>Audit Management</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p> 
+              <a href="#">Registor Now</a>
+</div>
+
+</div>
+</div>
+<div class="view2">
+<div class="wrapper">
+            <a href="#" class="download">VIEW ALL</a>
+</div>
+</div>
+.
+<div class="background-banner">
+<div class="background-text">
+           <h2>WHAT OUR STUDENT SAY</h2> 
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>              
+</div>
+<div class="background-box">
+<div class="wrapper">
+<div class="background-box1 left_box">
+               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.
+                   um dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.
+                            um dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>
+
+
+
+</div>
+<div class="background-box1 right_box">
+               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.
+                   um dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.
+                            um dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>
+
+</div>
+</div>
+</div>
+<div class="box-img">
+<div class="wrapper">
+<div class="img-section">
+           <img src="assets\images\students.png" alt="students">
+        
+
+      <h2>Akash Verma</h2>
+                  <span>Haryana</span>
+</div>
+<div class="img-section">
+           <img src="assets\images\students.png" alt="students">
+
+             <h2>Akash Verma</h2>
+                  <span>Haryana</span>
+
+</div>
+</div>  
+</div>
+</div>
+<div class="section">
+<div class="wrapper">
+<div class="section-text">
+                  <h2>OUR PROCESS</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quaerat beatae.</p>  
+</div>
+</div>
+
+
+<div class="process">
+<div class="wrapper">
+<div class="img-process">
+            <img src="assets/images/h3-custom-icon-1.png" alt="custom">
+               <h5>Admission</h5>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+</div>
+
+<div class="img-process">
+            <img src="assets/images/h3-custom-icon-2.png" alt="custom">
+               <h5>Classes</h5>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+</div>
+
+<div class="img-process">
+            <img src="assets/images/h3-custom-icon-3.png" alt="custom">
+               <h5>Certificate</h5>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+</div>
+
+<div class="img-process">
+            <img src="assets/images/h3-custom-icon-5.png" alt="custom">
+               <h5>Study and Training</h5>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+</div>
+
+<div class="img-process">
+            <img src="assets/images/h3-custom-icon-6.png" alt="custom">
+               <h5>Placement</h5>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+</div>
+
+</div>
+</div>
+</div>
+<footer>
+<div class="footer-top">
+<div class="wrapper">
+<div class="footer-text">
+         <img src="assets/images/icon1.png" alt="icon">
+      <p class="counter">6858</p>
+       <span>Students Register's</span>
+</div>
+<div class="footer-text">
+         <img src="assets/images/icon2.png" alt="icon">
+      <p class="counter">4800</p>
+       <span>Passed Students</span>
+</div>
+<div class="footer-text">
+         <img src="assets/images/icon3.png" alt="icon">
+      <p class="counter">6000</p>
+       <span>Hours Work</span>
+</div>
+<div class="footer-text">
+         <img src="assets/images/icon4.png" alt="icon">
+      <p class="counter">2500</p>
+       <span>ups of Tea</span>
+</div>
+
+
+</div>
+</div>
+<div class="footer">
+<div class="wrapper">
+<div class="footer-bottom">
+              <h2><span class="span-color">G</span>TIM</h2>
+               <span class="text-white">Global Tech Institue Of Management</span>
+                  <p> <b class="text-white1">GTIM Official Address:</b>1798 A 3rd Floor, Gyani Bazar Kotla Mubarakpur, South Extension   Part -1 New Delhi- 110003</p>
+                   <span class="text-white2">Connect With Us:</span>
+               </div>
+<div class="footer-bottom">
+     <h4>Quick Links</h4>
+          
+<ul class="link-bottom">
+       <li><a href="#">Home</a></li>
+        <li><a href="#">FAQ</a></li>
+         <li><a href="#">Placements</a></li>
+              <li><a href="#">Gallery</a></li>
+               <li><a href="#">About GTIM</a></li>
+                 <li><a href="#">Contact us</a></li>
+                   <li><a href="#">Star Students</a></li>
+                    <li><a href="#">Admission</a></li>
+                      <li><a href="#">Prospects</a></li>
+                      <li><a href="#">Courses</a></li>
+                          <li><a href="#">Recognition</a></li>
+                             <li><a href="#">Specialization</a></li>
+</ul>
+</div>
+   <div class="footer-bottom">
+   <h4 class="text-new">Newsletter Subscribe</h4>
+       <p class="p_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet,.</p>
+<div class="input-bottom">
+    <input type="text" placeholder="Enter your email address">
+       <input type="submit" value="submit">
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-below">
+<div class="wrapper">
+<div class="footer-below_text">
+                 <p>All contents © copyright 2011-2021.(GTIM) All rights reserved. | Quality Policy | Terms & Conditions | Disclaimer | Privacy Policy | Cancellation & Refund Policy</p>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
